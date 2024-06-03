@@ -1,0 +1,67 @@
+name: flutter_aviasales_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/first_image.png
+    - assets/images/second_image.png
+    - assets/images/third_image.png
+    - assets/images/stambul.png
+    - assets/images/sochi.png
+    - assets/images/phuket.png
+    #icons
+    - assets/icons/airplane_icon.png
+    - assets/icons/search_icon.svg
+
+
+
+
+
+  fonts:
+    - family: SF-Pro-Display-Medium.otf
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+
+    - family: SF-Pro-Display-Regular
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+
+    - family: SF-Pro-Display-Semibold
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+
+    - family: CustomIcons
+      fonts:
+        - asset: font/CustomIcons.ttf
+
+
+
+
+
