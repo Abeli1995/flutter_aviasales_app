@@ -194,7 +194,6 @@ void showSecondSearchModal(
                     ),
                   ),
                   //TODO: add flights
-
                   Container(
                     child: Column(
                       children: [
